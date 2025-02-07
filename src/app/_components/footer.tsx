@@ -4,7 +4,11 @@ import primier from "../../../public/images/primier.png";
 import natural from "../../../public/images/natural.png";
 import whiskas from "../../../public/images/whiskas.png";
 import Image from "next/image";
-import { FacebookLogo, InstagramLogo, XLogo } from "@phosphor-icons/react/dist/ssr";
+import {
+  FacebookLogo,
+  InstagramLogo,
+  XLogo,
+} from "@phosphor-icons/react/dist/ssr";
 
 const brands = [
   { name: "Royal Canin", logo: royal },
@@ -50,8 +54,14 @@ export function Footer() {
         <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
           <div>
             <h3 className="text-2xl font-semibold mb-2">Pet Shop Dev</h3>
-            <p className="mb-4">Cuidando do seu melhor amigo com amor e dedicação.</p>
-            <a href="#" className="bg-green-500 px-4 py-2 rounded-md">
+            <p className="mb-4">
+              Cuidando do seu melhor amigo com amor e dedicação.
+            </p>
+            <a
+              href={`https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações`}
+              target="_blank"
+              className="bg-green-500 px-4 py-2 rounded-md"
+            >
               Contato via WhatsApp
             </a>
           </div>

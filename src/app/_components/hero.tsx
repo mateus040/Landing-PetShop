@@ -17,7 +17,7 @@ export function Hero() {
         />
         <div className="absolute inset-0 bg-black opacity-40 md:hidden"></div>
       </div>
-      
+
       <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
@@ -30,8 +30,9 @@ export function Hero() {
             </p>
 
             <a
-              href="#"
+              href={`https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações`}
               className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
+              target="_blank"
             >
               <WhatsappLogo className="w-5 h-5" />
               Contato via WhatsApp
