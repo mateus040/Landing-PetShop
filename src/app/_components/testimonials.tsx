@@ -4,13 +4,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import {
   ChevronLeft,
   ChevronRight,
-  Scissors,
-  Syringe,
-  CarTaxiFront,
-  Hotel,
-  Clock,
 } from "lucide-react";
-import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import tutor1 from "../../../public/images/tutor1.png";
 import Image from "next/image";
 
